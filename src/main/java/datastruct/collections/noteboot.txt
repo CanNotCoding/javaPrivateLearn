@@ -1,0 +1,4 @@
+java8 foreach用法
+https://segmentfault.com/a/1190000020149527?utm_source=tag-newest
+各种集合框架的用法
+http://www.51gjie.com/java/677.html
