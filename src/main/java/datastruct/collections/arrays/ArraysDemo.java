@@ -14,8 +14,12 @@ import java.util.List;
  */
 public class ArraysDemo {
     public static void main(String[] args) {
-
-        testArraysSearch();
+        int [] array = new int []{1, 6, 3, 7, 5};
+        int [] integers = Arrays.copyOfRange(array, 0, array.length);
+        for (int a : integers) {
+            System.out.println(a);
+        }
+       // testArraysSearch();
     }
 
 
