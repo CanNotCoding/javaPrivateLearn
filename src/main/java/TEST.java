@@ -9,6 +9,10 @@ class TEST {
     public static void main(String[] args) {
         System.out.println("TEST");
     }
+ 
+   public static void tt () {
+        System.out.println("TT");
+   }
 }
 
 
