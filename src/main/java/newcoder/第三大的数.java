@@ -1,6 +1,8 @@
 package newcoder;
 
 
+import java.util.Map;
+
 import java.util.TreeSet;
 
 public class 第三大的数 {
@@ -11,7 +13,7 @@ public class 第三大的数 {
 
     public static int thirdMax(int[] nums) {
 
-        TreeSet<Integer> set = new TreeSet<>((o1, o2)->(o2 - o1));
+        TreeSet<Integer> set = new TreeSet<>((o1,o2)->(o2 - o1));
         for(int n :nums) {
             set.add(n);
         }
